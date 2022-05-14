@@ -1,0 +1,9 @@
+/**/.idea/
+/**/.vscode/
+/**/build/
+/**/debug
+/**/node_modules/
+
+*.lock
+*.lock.*
+*-lock.*

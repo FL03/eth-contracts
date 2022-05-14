@@ -1,0 +1,22 @@
+{
+  "author": {
+    "email": "jo3mccain@icloud.com",
+    "name": "FL03",
+    "url": "https://pzzld.eth.link/"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  },
+  "description": "",
+  "license": "MIT",
+  "name": "@project/contracts",
+  "repository": "https://github.com/fl03/eth-contracts.git",
+  "scripts": {
+    "test": "echo \" No test specified \" ",
+    "truffle": "truffle",
+    "truffle:compile": "npm run truffle compile",
+    "truffle:deploy": "npm run truffle deploy"
+  },
+  "url": "",
+  "version": "1.0.0"
+}

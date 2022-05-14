@@ -1,0 +1,56 @@
+# Build
+/**/build/
+/**/debug/
+/**/dist/
+/**/target/
+
+# Cache
+/**/.DS_STORE/
+/**/.svelte-kit/
+
+/**/__pycache__/
+
+# Dependencies
+/**/node_modules/
+/**/venv/
+
+# Editors
+/**/.idea/
+/**/.vscode/
+
+# General File Extensions
+*.bk
+*.bk.*
+
+*.db
+*.db.*
+
+*.exe
+*.exe.*
+
+*.gz
+*.gz.*
+
+*.lock
+*.lock.*
+*-lock.*
+
+*.log
+*.log.*
+
+*.tar
+*.tar.*
+
+*.whl
+*.whl.*
+
+*.zip
+*.zip.*
+
+# Secrets
+/**/config/local.*
+/**/config/secret.*
+
+*.env
+*.env.*
+!.env.example
