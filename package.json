@@ -5,6 +5,8 @@
     "url": "https://pzzld.eth.link/"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
+    "@openzeppelin/contracts-upgradeable": "^4.6.0",
     "dotenv": "^16.0.1"
   },
   "description": "",
@@ -12,6 +14,7 @@
   "name": "@project/contracts",
   "repository": "https://github.com/fl03/eth-contracts.git",
   "scripts": {
+    "build": "npm run truffle:compile",
     "test": "echo \" No test specified \" ",
     "truffle": "truffle",
     "truffle:compile": "npm run truffle compile",
