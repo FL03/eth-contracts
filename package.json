@@ -1,17 +1,15 @@
 {
-  "author": {
-    "email": "jo3mccain@icloud.com",
-    "name": "FL03",
-    "url": "https://pzzld.eth.link/"
-  },
+  "author": "FL03 <jo3mccain@icloud.com> (https://pzzld.eth.link/)",
   "dependencies": {
     "@openzeppelin/contracts": "^4.6.0",
     "@openzeppelin/contracts-upgradeable": "^4.6.0",
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "ganache": "latest",
+    "truffle": "latest"
   },
-  "description": "",
+  "description": "Standard contracts for the seamless development of dApps for EVM compatible blockchains",
   "license": "MIT",
-  "name": "@project/contracts",
+  "name": "@scattered-systems/contracts",
   "repository": "https://github.com/fl03/eth-contracts.git",
   "scripts": {
     "build": "npm run truffle:compile",
@@ -21,5 +19,5 @@
     "truffle:deploy": "npm run truffle deploy"
   },
   "url": "",
-  "version": "1.0.0"
+  "version": "0.1.0"
 }
